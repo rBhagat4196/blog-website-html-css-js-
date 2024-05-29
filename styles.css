@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    bottom: 0;
+    width: 100%;
+}
+
+h2 {
+    color: #333;
+}
+
+#new-post-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#new-post-form label, #new-post-form input, #new-post-form textarea, #new-post-form button {
+    margin-bottom: 10px;
+}
+
+#new-post-form input, #new-post-form textarea {
+    padding: 10px;
+    font-size: 1rem;
+}
+
+#new-post-form button {
+    padding: 10px;
+    font-size: 1rem;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#posts article {
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+#posts article img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+    width: 300px; /* Fixed width for consistency */
+    margin: 0 auto 10px auto; /* Center align the image */
+}
+
+#post img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+    width: 600px; /* Fixed width for consistency */
+    margin: 0 auto; /* Center align the image */
+}
